@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="FaceView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="307"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HaY-91-KWb">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="270"/>
+                    <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <gestureRecognizers/>
+                    <connections>
+                        <outletCollection property="gestureRecognizers" destination="iHL-jB-9yQ" appends="YES" id="bTx-UH-44J"/>
+                    </connections>
+                </scrollView>
+                <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="LYt-oh-knN">
+                    <rect key="frame" x="0.0" y="270" width="375" height="37"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="37" id="Lh0-ds-JaA"/>
+                    </constraints>
+                    <color key="pageIndicatorTintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <color key="currentPageIndicatorTintColor" red="1" green="0.45889891040000003" blue="0.38074694279999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <connections>
+                        <action selector="pageControlerValueChange:" destination="iN0-l3-epB" eventType="valueChanged" id="UAg-7Q-WC5"/>
+                    </connections>
+                </pageControl>
+            </subviews>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="LYt-oh-knN" secondAttribute="trailing" id="4NA-hN-NWD"/>
+                <constraint firstItem="HaY-91-KWb" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="CfR-Wa-be8"/>
+                <constraint firstItem="LYt-oh-knN" firstAttribute="top" secondItem="HaY-91-KWb" secondAttribute="bottom" id="GZ2-cr-78Y"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="LYt-oh-knN" secondAttribute="bottom" id="c4X-RK-egC"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="HaY-91-KWb" secondAttribute="trailing" id="pn5-b7-1Pj"/>
+                <constraint firstItem="LYt-oh-knN" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="rfc-fe-O98"/>
+                <constraint firstItem="HaY-91-KWb" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="xFC-TG-6Gh"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="pageCtrl" destination="LYt-oh-knN" id="vtL-fY-nbv"/>
+                <outlet property="scrollView" destination="HaY-91-KWb" id="2Ym-aj-FfW"/>
+            </connections>
+            <point key="canvasLocation" x="-245" y="-377"/>
+        </view>
+        <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.5" id="iHL-jB-9yQ">
+            <connections>
+                <action selector="longPressGesture:" destination="iN0-l3-epB" id="C6F-Em-Msi"/>
+            </connections>
+        </pongPressGestureRecognizer>
+    </objects>
+</document>

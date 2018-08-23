@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>lanmu</key>
+		<string>体育</string>
+		<key>banner</key>
+		<array>
+			<dict>
+				<key>str</key>
+				<string>佩莱双响 鲁能3-1华夏继续紧追国安</string>
+				<key>img</key>
+				<string>1.png</string>
+			</dict>
+			<dict>
+				<key>str</key>
+				<string>杨旭进球被吹 津城德比权健0-0泰达</string>
+				<key>img</key>
+				<string>2.png</string>
+			</dict>
+			<dict>
+				<key>str</key>
+				<string>科斯塔2球 马竞4-2皇马夺欧超杯</string>
+				<key>img</key>
+				<string>3.jpeg</string>
+			</dict>
+			<dict>
+				<key>str</key>
+				<string>罗梅罗双响 申花3-1送贵州3连败</string>
+				<key>img</key>
+				<string>4.png</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>lanmu</key>
+		<string>科技</string>
+		<key>banner</key>
+		<array>
+			<dict>
+				<key>str</key>
+				<string>融资2.5亿的＂自主国产＂红芯浏览器 被指套壳Chrome</string>
+				<key>img</key>
+				<string>5.png</string>
+			</dict>
+			<dict>
+				<key>str</key>
+				<string>称＂拒绝傻白甜＂ 三星新智能助手在华能做大吗</string>
+				<key>img</key>
+				<string>6.jpeg</string>
+			</dict>
+			<dict>
+				<key>str</key>
+				<string>电动车数量大涨会造成严重缺电吗？研究称不会</string>
+				<key>img</key>
+				<string>7.jpeg</string>
+			</dict>
+			<dict>
+				<key>str</key>
+				<string>SpaceX公开展示载人飞船 明年有望送宇航员进太空</string>
+				<key>img</key>
+				<string>8.png</string>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,5 @@
+target 'autoLayOut' do
+
+pod 'Masonry'
+
+end

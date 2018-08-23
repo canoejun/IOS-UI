@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="OperationView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="134"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chat_bottom_bg" translatesAutoresizingMaskIntoConstraints="NO" id="vS1-ND-wKW">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="134"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="943-xm-lQg" userLabel="声音">
+                    <rect key="frame" x="20" y="50" width="34" height="34"/>
+                    <state key="normal" image="chat_bottom_voice_nor"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t4P-MC-dTb" userLabel="表情">
+                    <rect key="frame" x="321" y="49.5" width="34" height="34"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="34" id="2Sl-tI-NS9"/>
+                        <constraint firstAttribute="height" constant="34" id="HXl-uD-kJ5"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="chat_bottom_smile_nor"/>
+                    <connections>
+                        <action selector="changeKeyBoardType:" destination="iN0-l3-epB" eventType="touchUpInside" id="KPU-xE-RIA"/>
+                    </connections>
+                </button>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" tag="100" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="QTF-rc-hnq">
+                    <rect key="frame" x="74" y="10" width="227" height="114"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="Jkf-iz-dga"/>
+                    </connections>
+                </textView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="vS1-ND-wKW" secondAttribute="bottom" id="3PT-cR-Yem"/>
+                <constraint firstItem="943-xm-lQg" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="Ona-9c-snF"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="t4P-MC-dTb" secondAttribute="trailing" constant="20" id="QYK-Kc-6nl"/>
+                <constraint firstItem="t4P-MC-dTb" firstAttribute="leading" secondItem="QTF-rc-hnq" secondAttribute="trailing" constant="20" id="R4G-pr-3sX"/>
+                <constraint firstItem="QTF-rc-hnq" firstAttribute="leading" secondItem="943-xm-lQg" secondAttribute="trailing" constant="20" id="ULC-Qs-FaE"/>
+                <constraint firstItem="t4P-MC-dTb" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="VB5-DH-UUk"/>
+                <constraint firstItem="QTF-rc-hnq" firstAttribute="centerY" secondItem="t4P-MC-dTb" secondAttribute="centerY" id="bZZ-DH-aCY"/>
+                <constraint firstItem="vS1-ND-wKW" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="cyV-mR-huq"/>
+                <constraint firstItem="943-xm-lQg" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="gmB-6w-bMW"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="vS1-ND-wKW" secondAttribute="trailing" id="nPh-75-pHu"/>
+                <constraint firstItem="QTF-rc-hnq" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="10" id="ogT-Ts-7le"/>
+                <constraint firstItem="vS1-ND-wKW" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="pIB-Va-4bX"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="textView" destination="QTF-rc-hnq" id="8eZ-TX-2RI"/>
+            </connections>
+            <point key="canvasLocation" x="-770" y="-696"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="chat_bottom_bg" width="10" height="42"/>
+        <image name="chat_bottom_smile_nor" width="34" height="34"/>
+        <image name="chat_bottom_voice_nor" width="34" height="34"/>
+    </resources>
+</document>

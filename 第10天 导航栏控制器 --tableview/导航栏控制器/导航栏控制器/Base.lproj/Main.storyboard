@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="4tU-Ud-Bbu">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--第一个界面-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <viewController storyboardIdentifier="one" id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FTo-Dg-bk6">
+                                <rect key="frame" x="125" y="286" width="124" height="94"/>
+                                <color key="backgroundColor" red="0.73265189210000004" green="1" blue="0.93294294519999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="下一个"/>
+                                <connections>
+                                    <action selector="clickToNext:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DJE-Tg-Xdb"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="FTo-Dg-bk6" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="k8m-Ii-ZBl"/>
+                            <constraint firstItem="FTo-Dg-bk6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nY0-op-tko"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <toolbarItems>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="ml1-E6-v0h"/>
+                        <barButtonItem title="snippy" id="YzE-qu-SOR"/>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="9BS-XJ-lRD"/>
+                        <barButtonItem title="cut" id="Ihe-Ie-NrU"/>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="3sV-U2-BPz"/>
+                        <barButtonItem title="copy" id="l0G-Vu-aCX"/>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="ehN-24-387"/>
+                    </toolbarItems>
+                    <navigationItem key="navigationItem" title="第一个界面" id="BTu-uq-5eh">
+                        <barButtonItem key="leftBarButtonItem" title="back" id="auY-2K-uQq"/>
+                        <barButtonItem key="rightBarButtonItem" title="next" id="dbo-y1-wGo">
+                            <connections>
+                                <segue destination="elF-W7-Ef3" kind="push" id="Tzd-73-Y9Z"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="132" y="28.335832083958024"/>
+        </scene>
+        <!--第二个界面-->
+        <scene sceneID="IgO-q1-uaI">
+            <objects>
+                <viewController storyboardIdentifier="fuck" id="elF-W7-Ef3" customClass="TwoViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nlT-2a-Yo2">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wDj-Pf-fCt">
+                                <rect key="frame" x="137" y="298" width="100" height="70"/>
+                                <color key="backgroundColor" red="0.077608095390000006" green="0.84754538779999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="返回">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="clickToBack:" destination="elF-W7-Ef3" eventType="touchUpInside" id="xgi-w2-w8k"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wDj-Pf-fCt" firstAttribute="centerY" secondItem="nlT-2a-Yo2" secondAttribute="centerY" id="RHN-nv-wLu"/>
+                            <constraint firstItem="wDj-Pf-fCt" firstAttribute="centerX" secondItem="nlT-2a-Yo2" secondAttribute="centerX" id="xQm-ah-S7r"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="o1I-CV-ire"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="第二个界面" id="Enb-a9-1JW">
+                        <barButtonItem key="rightBarButtonItem" title="next" id="Seg-kF-JCW">
+                            <connections>
+                                <segue destination="mQx-mo-Vxo" kind="push" id="MY8-Ry-960"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="backButton" destination="wDj-Pf-fCt" id="3hM-Pj-Q9B"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LZF-qU-kt6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="968.79999999999995" y="26.53673163418291"/>
+        </scene>
+        <!--第三个界面-->
+        <scene sceneID="TdB-tU-O65">
+            <objects>
+                <viewController id="mQx-mo-Vxo" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ikg-G2-cex">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="wre-cG-myI"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="第三个界面" id="0dh-XJ-v2g"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oAO-Eb-V3T" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1865" y="28"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="1JI-b1-Ow0">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" toolbarHidden="NO" id="4tU-Ud-Bbu" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="r7L-Zl-aoO">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="C9w-ja-hmE">
+                        <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="UnN-ec-d5V"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="q1x-Vw-Icv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-642" y="28"/>
+        </scene>
+    </scenes>
+</document>

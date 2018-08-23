@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFDC9B2D21283F5800C5FF66 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDC9B2C21283F5800C5FF66 /* AppDelegate.m */; };
+		BFDC9B3021283F5900C5FF66 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDC9B2F21283F5900C5FF66 /* ViewController.m */; };
+		BFDC9B3321283F5900C5FF66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFDC9B3121283F5900C5FF66 /* Main.storyboard */; };
+		BFDC9B3521283F5900C5FF66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFDC9B3421283F5900C5FF66 /* Assets.xcassets */; };
+		BFDC9B3821283F5900C5FF66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFDC9B3621283F5900C5FF66 /* LaunchScreen.storyboard */; };
+		BFDC9B3B21283F5900C5FF66 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDC9B3A21283F5900C5FF66 /* main.m */; };
+		BFDC9B4321283FFF00C5FF66 /* OperaionView.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDC9B4221283FFF00C5FF66 /* OperaionView.m */; };
+		BFDC9B452128401200C5FF66 /* OperaionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFDC9B442128401200C5FF66 /* OperaionView.xib */; };
+		BFF56B1E212959CC0077D903 /* FaceView.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF56B1D212959CC0077D903 /* FaceView.m */; };
+		BFF56B20212959D80077D903 /* FaceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFF56B1F212959D80077D903 /* FaceView.xib */; };
+		BFF56B382129648F0077D903 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BFF56B222129648F0077D903 /* Info.plist */; };
+		BFF56B392129648F0077D903 /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF56B252129648F0077D903 /* MJExtensionConst.m */; };
+		BFF56B3A2129648F0077D903 /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF56B272129648F0077D903 /* MJFoundation.m */; };
+		BFF56B3B2129648F0077D903 /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF56B292129648F0077D903 /* MJProperty.m */; };
+		BFF56B3C2129648F0077D903 /* MJPropertyKey.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF56B2B2129648F0077D903 /* MJPropertyKey.m */; };
+		BFF56B3D2129648F0077D903 /* MJPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF56B2D2129648F0077D903 /* MJPropertyType.m */; };
+		BFF56B3E2129648F0077D903 /* NSObject+MJClass.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF56B2F2129648F0077D903 /* NSObject+MJClass.m */; };
+		BFF56B3F2129648F0077D903 /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF56B312129648F0077D903 /* NSObject+MJCoding.m */; };
+		BFF56B402129648F0077D903 /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF56B332129648F0077D903 /* NSObject+MJKeyValue.m */; };
+		BFF56B412129648F0077D903 /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF56B352129648F0077D903 /* NSObject+MJProperty.m */; };
+		BFF56B422129648F0077D903 /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF56B372129648F0077D903 /* NSString+MJExtension.m */; };
+		BFF56B45212964B90077D903 /* FaceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF56B44212964B90077D903 /* FaceModel.m */; };
+		BFF56B47212964E50077D903 /* face.plist in Resources */ = {isa = PBXBuildFile; fileRef = BFF56B46212964E50077D903 /* face.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BFDC9B2821283F5800C5FF66 /* QQ表情键盘输入分层次.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QQ表情键盘输入分层次.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFDC9B2B21283F5800C5FF66 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BFDC9B2C21283F5800C5FF66 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BFDC9B2E21283F5900C5FF66 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BFDC9B2F21283F5900C5FF66 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BFDC9B3221283F5900C5FF66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BFDC9B3421283F5900C5FF66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFDC9B3721283F5900C5FF66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BFDC9B3921283F5900C5FF66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFDC9B3A21283F5900C5FF66 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BFDC9B4121283FFF00C5FF66 /* OperaionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OperaionView.h; sourceTree = "<group>"; };
+		BFDC9B4221283FFF00C5FF66 /* OperaionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OperaionView.m; sourceTree = "<group>"; };
+		BFDC9B442128401200C5FF66 /* OperaionView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OperaionView.xib; sourceTree = "<group>"; };
+		BFF56B1C212959CC0077D903 /* FaceView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FaceView.h; sourceTree = "<group>"; };
+		BFF56B1D212959CC0077D903 /* FaceView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FaceView.m; sourceTree = "<group>"; };
+		BFF56B1F212959D80077D903 /* FaceView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FaceView.xib; sourceTree = "<group>"; };
+		BFF56B222129648F0077D903 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFF56B232129648F0077D903 /* MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtension.h; sourceTree = "<group>"; };
+		BFF56B242129648F0077D903 /* MJExtensionConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtensionConst.h; sourceTree = "<group>"; };
+		BFF56B252129648F0077D903 /* MJExtensionConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJExtensionConst.m; sourceTree = "<group>"; };
+		BFF56B262129648F0077D903 /* MJFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJFoundation.h; sourceTree = "<group>"; };
+		BFF56B272129648F0077D903 /* MJFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJFoundation.m; sourceTree = "<group>"; };
+		BFF56B282129648F0077D903 /* MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJProperty.h; sourceTree = "<group>"; };
+		BFF56B292129648F0077D903 /* MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJProperty.m; sourceTree = "<group>"; };
+		BFF56B2A2129648F0077D903 /* MJPropertyKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyKey.h; sourceTree = "<group>"; };
+		BFF56B2B2129648F0077D903 /* MJPropertyKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyKey.m; sourceTree = "<group>"; };
+		BFF56B2C2129648F0077D903 /* MJPropertyType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyType.h; sourceTree = "<group>"; };
+		BFF56B2D2129648F0077D903 /* MJPropertyType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyType.m; sourceTree = "<group>"; };
+		BFF56B2E2129648F0077D903 /* NSObject+MJClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJClass.h"; sourceTree = "<group>"; };
+		BFF56B2F2129648F0077D903 /* NSObject+MJClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJClass.m"; sourceTree = "<group>"; };
+		BFF56B302129648F0077D903 /* NSObject+MJCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJCoding.h"; sourceTree = "<group>"; };
+		BFF56B312129648F0077D903 /* NSObject+MJCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJCoding.m"; sourceTree = "<group>"; };
+		BFF56B322129648F0077D903 /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
+		BFF56B332129648F0077D903 /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
+		BFF56B342129648F0077D903 /* NSObject+MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJProperty.h"; sourceTree = "<group>"; };
+		BFF56B352129648F0077D903 /* NSObject+MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJProperty.m"; sourceTree = "<group>"; };
+		BFF56B362129648F0077D903 /* NSString+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MJExtension.h"; sourceTree = "<group>"; };
+		BFF56B372129648F0077D903 /* NSString+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MJExtension.m"; sourceTree = "<group>"; };
+		BFF56B43212964B90077D903 /* FaceModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FaceModel.h; path = "QQ表情键盘输入分层次/模型/FaceModel.h"; sourceTree = SOURCE_ROOT; };
+		BFF56B44212964B90077D903 /* FaceModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = FaceModel.m; path = "QQ表情键盘输入分层次/模型/FaceModel.m"; sourceTree = SOURCE_ROOT; };
+		BFF56B46212964E50077D903 /* face.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = face.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFDC9B2521283F5800C5FF66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFDC9B1F21283F5800C5FF66 = {
+			isa = PBXGroup;
+			children = (
+				BFDC9B2A21283F5800C5FF66 /* QQ表情键盘输入分层次 */,
+				BFDC9B2921283F5800C5FF66 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFDC9B2921283F5800C5FF66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFDC9B2821283F5800C5FF66 /* QQ表情键盘输入分层次.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFDC9B2A21283F5800C5FF66 /* QQ表情键盘输入分层次 */ = {
+			isa = PBXGroup;
+			children = (
+				BFDC9B2B21283F5800C5FF66 /* AppDelegate.h */,
+				BFDC9B2C21283F5800C5FF66 /* AppDelegate.m */,
+				BFDC9B2E21283F5900C5FF66 /* ViewController.h */,
+				BFDC9B2F21283F5900C5FF66 /* ViewController.m */,
+				BFF56B46212964E50077D903 /* face.plist */,
+				BFF56B1B2129531E0077D903 /* 模型 */,
+				BFF56B1A2129530B0077D903 /* QQ表情 */,
+				BFDC9B3121283F5900C5FF66 /* Main.storyboard */,
+				BFDC9B3421283F5900C5FF66 /* Assets.xcassets */,
+				BFDC9B3621283F5900C5FF66 /* LaunchScreen.storyboard */,
+				BFDC9B3921283F5900C5FF66 /* Info.plist */,
+				BFDC9B3A21283F5900C5FF66 /* main.m */,
+			);
+			path = "QQ表情键盘输入分层次";
+			sourceTree = "<group>";
+		};
+		BFF56B1A2129530B0077D903 /* QQ表情 */ = {
+			isa = PBXGroup;
+			children = (
+				BFDC9B4121283FFF00C5FF66 /* OperaionView.h */,
+				BFDC9B4221283FFF00C5FF66 /* OperaionView.m */,
+				BFDC9B442128401200C5FF66 /* OperaionView.xib */,
+				BFF56B1C212959CC0077D903 /* FaceView.h */,
+				BFF56B1D212959CC0077D903 /* FaceView.m */,
+				BFF56B1F212959D80077D903 /* FaceView.xib */,
+			);
+			path = "QQ表情";
+			sourceTree = "<group>";
+		};
+		BFF56B1B2129531E0077D903 /* 模型 */ = {
+			isa = PBXGroup;
+			children = (
+				BFF56B43212964B90077D903 /* FaceModel.h */,
+				BFF56B44212964B90077D903 /* FaceModel.m */,
+				BFF56B212129648F0077D903 /* MJExtension */,
+			);
+			path = "模型";
+			sourceTree = "<group>";
+		};
+		BFF56B212129648F0077D903 /* MJExtension */ = {
+			isa = PBXGroup;
+			children = (
+				BFF56B222129648F0077D903 /* Info.plist */,
+				BFF56B232129648F0077D903 /* MJExtension.h */,
+				BFF56B242129648F0077D903 /* MJExtensionConst.h */,
+				BFF56B252129648F0077D903 /* MJExtensionConst.m */,
+				BFF56B262129648F0077D903 /* MJFoundation.h */,
+				BFF56B272129648F0077D903 /* MJFoundation.m */,
+				BFF56B282129648F0077D903 /* MJProperty.h */,
+				BFF56B292129648F0077D903 /* MJProperty.m */,
+				BFF56B2A2129648F0077D903 /* MJPropertyKey.h */,
+				BFF56B2B2129648F0077D903 /* MJPropertyKey.m */,
+				BFF56B2C2129648F0077D903 /* MJPropertyType.h */,
+				BFF56B2D2129648F0077D903 /* MJPropertyType.m */,
+				BFF56B2E2129648F0077D903 /* NSObject+MJClass.h */,
+				BFF56B2F2129648F0077D903 /* NSObject+MJClass.m */,
+				BFF56B302129648F0077D903 /* NSObject+MJCoding.h */,
+				BFF56B312129648F0077D903 /* NSObject+MJCoding.m */,
+				BFF56B322129648F0077D903 /* NSObject+MJKeyValue.h */,
+				BFF56B332129648F0077D903 /* NSObject+MJKeyValue.m */,
+				BFF56B342129648F0077D903 /* NSObject+MJProperty.h */,
+				BFF56B352129648F0077D903 /* NSObject+MJProperty.m */,
+				BFF56B362129648F0077D903 /* NSString+MJExtension.h */,
+				BFF56B372129648F0077D903 /* NSString+MJExtension.m */,
+			);
+			path = MJExtension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFDC9B2721283F5800C5FF66 /* QQ表情键盘输入分层次 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFDC9B3E21283F5900C5FF66 /* Build configuration list for PBXNativeTarget "QQ表情键盘输入分层次" */;
+			buildPhases = (
+				BFDC9B2421283F5800C5FF66 /* Sources */,
+				BFDC9B2521283F5800C5FF66 /* Frameworks */,
+				BFDC9B2621283F5800C5FF66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "QQ表情键盘输入分层次";
+			productName = "QQ表情键盘输入分层次";
+			productReference = BFDC9B2821283F5800C5FF66 /* QQ表情键盘输入分层次.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDC9B2021283F5800C5FF66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = zhangjun;
+				TargetAttributes = {
+					BFDC9B2721283F5800C5FF66 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BFDC9B2321283F5800C5FF66 /* Build configuration list for PBXProject "QQ表情键盘输入分层次" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFDC9B1F21283F5800C5FF66;
+			productRefGroup = BFDC9B2921283F5800C5FF66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFDC9B2721283F5800C5FF66 /* QQ表情键盘输入分层次 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFDC9B2621283F5800C5FF66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFDC9B3821283F5900C5FF66 /* LaunchScreen.storyboard in Resources */,
+				BFDC9B452128401200C5FF66 /* OperaionView.xib in Resources */,
+				BFF56B382129648F0077D903 /* Info.plist in Resources */,
+				BFF56B47212964E50077D903 /* face.plist in Resources */,
+				BFDC9B3521283F5900C5FF66 /* Assets.xcassets in Resources */,
+				BFF56B20212959D80077D903 /* FaceView.xib in Resources */,
+				BFDC9B3321283F5900C5FF66 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFDC9B2421283F5800C5FF66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFDC9B3021283F5900C5FF66 /* ViewController.m in Sources */,
+				BFF56B3A2129648F0077D903 /* MJFoundation.m in Sources */,
+				BFF56B402129648F0077D903 /* NSObject+MJKeyValue.m in Sources */,
+				BFDC9B4321283FFF00C5FF66 /* OperaionView.m in Sources */,
+				BFF56B3B2129648F0077D903 /* MJProperty.m in Sources */,
+				BFF56B3C2129648F0077D903 /* MJPropertyKey.m in Sources */,
+				BFF56B45212964B90077D903 /* FaceModel.m in Sources */,
+				BFF56B3D2129648F0077D903 /* MJPropertyType.m in Sources */,
+				BFF56B3E2129648F0077D903 /* NSObject+MJClass.m in Sources */,
+				BFF56B422129648F0077D903 /* NSString+MJExtension.m in Sources */,
+				BFF56B1E212959CC0077D903 /* FaceView.m in Sources */,
+				BFF56B412129648F0077D903 /* NSObject+MJProperty.m in Sources */,
+				BFF56B3F2129648F0077D903 /* NSObject+MJCoding.m in Sources */,
+				BFDC9B3B21283F5900C5FF66 /* main.m in Sources */,
+				BFF56B392129648F0077D903 /* MJExtensionConst.m in Sources */,
+				BFDC9B2D21283F5800C5FF66 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BFDC9B3121283F5900C5FF66 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFDC9B3221283F5900C5FF66 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BFDC9B3621283F5900C5FF66 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFDC9B3721283F5900C5FF66 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFDC9B3C21283F5900C5FF66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BFDC9B3D21283F5900C5FF66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFDC9B3F21283F5900C5FF66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "QQ表情键盘输入分层次/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "junzhang.QQ---------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFDC9B4021283F5900C5FF66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "QQ表情键盘输入分层次/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "junzhang.QQ---------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFDC9B2321283F5800C5FF66 /* Build configuration list for PBXProject "QQ表情键盘输入分层次" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFDC9B3C21283F5900C5FF66 /* Debug */,
+				BFDC9B3D21283F5900C5FF66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFDC9B3E21283F5900C5FF66 /* Build configuration list for PBXNativeTarget "QQ表情键盘输入分层次" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFDC9B3F21283F5900C5FF66 /* Debug */,
+				BFDC9B4021283F5900C5FF66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDC9B2021283F5800C5FF66 /* Project object */;
+}

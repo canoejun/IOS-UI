@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="GlassView">
+            <rect key="frame" x="0.0" y="0.0" width="64" height="91"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="emoticon_keyboard_magnifier" translatesAutoresizingMaskIntoConstraints="NO" id="hzi-4b-ZAg" userLabel="放大镜">
+                    <rect key="frame" x="0.0" y="0.0" width="64" height="91"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="d_haixiu" translatesAutoresizingMaskIntoConstraints="NO" id="S83-1l-viq" userLabel="表情">
+                    <rect key="frame" x="2" y="1" width="60" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="60" id="LxX-rR-Adg"/>
+                        <constraint firstAttribute="height" constant="60" id="XwA-4Z-c3E"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="S83-1l-viq" firstAttribute="centerX" secondItem="hzi-4b-ZAg" secondAttribute="centerX" id="1hl-PP-Zx7"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="hzi-4b-ZAg" secondAttribute="bottom" id="F7t-mh-iC5"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="hzi-4b-ZAg" secondAttribute="trailing" id="aAm-1O-ora"/>
+                <constraint firstItem="S83-1l-viq" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="1" id="eWQ-mh-I3f"/>
+                <constraint firstItem="hzi-4b-ZAg" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="tYh-k8-jFg"/>
+                <constraint firstItem="hzi-4b-ZAg" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="yAT-yX-L2S"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="faceImageView" destination="S83-1l-viq" id="6kt-GK-oUe"/>
+            </connections>
+            <point key="canvasLocation" x="-213" y="-380.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="d_haixiu" width="32" height="32"/>
+        <image name="emoticon_keyboard_magnifier" width="64" height="91"/>
+    </resources>
+</document>
